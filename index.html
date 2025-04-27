@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="tic-tac-toe.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
+    <button class="button-82-pushable" role="button">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Start New Game
+        </span>
+      </button>
     <div class="game-section">
         <h1>Tic Tac Toe</h1>
         <div class="board">
@@ -22,17 +30,13 @@
             <button class="cell"></button>
         </div>
     </div>
-    <div class="side-panel">
-        <h2>Scoreboard</h2>
-        <div class="score">
-            <p>Player X: <span id="scoreX">0</span></p>
-            <p>Player O: <span id="scoreO">0</span></p>
-        </div>
-        <div class="turn">
-            <h3>Turn:</h3>
-            <p id="currentTurn">Player X</p>
-        </div>
-    </div>
+    <button class="button-82-pushable" role="button">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Reset
+        </span>
+      </button>
 </div>
 <script src="script.js"></script>
 </body>
